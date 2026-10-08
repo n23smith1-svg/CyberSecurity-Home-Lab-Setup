@@ -66,10 +66,9 @@ The main objectives of this project were:
 ## Virtual Machines
 ### Kali Linux
 **Purpose:** Security testing and analysis workstation
-- CPU: [Fill in]
-- RAM: [Fill in]
-- Storage: [Fill in]
-- Network Adapter: [Fill in]
+- CPU: 2B
+- Storage: 2048 MB
+- Network Adapter: NAT Intel PRO/1000 MT Desktop (82540EM)
 - IP Address: [Lab IP â do not include sensitive public IP information]
 
 See: `documentation/02-kali-linux-setup.md`
