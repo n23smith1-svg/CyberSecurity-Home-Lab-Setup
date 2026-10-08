@@ -106,15 +106,15 @@ See: `documentation/03-windows-vm-setup.md`
   Windows 11 and Kali Linux virtual machines communicate through the VirtualBox Host-Only Network. They are both connected to the same private subnet.
 **How I verified connectivity**
 Connectivity between the Windows 11 and Kali Linux virtual machines was verified using ICMP ping tests.
-Test 1 — Kali Linux → Windows 11
+- Test 1 — Kali Linux → Windows 11
 ping -c 4 <Windows-VM-IP>
 Result: 4 packets received, 0% packet loss.
-Test 2 — Windows 11 → Kali Linux
+- Test 2 — Windows 11 → Kali Linux
 ping <Kali-VM-IP>
 Result: 4 packets received, 0% packet loss.
 Verification
 Successful ping responses confirmed that the Windows 11 and Kali Linux virtual machines can communicate across the VirtualBox Host-Only network.
 
 
-See: `documentation/04-network-configuration.md`
+
 
