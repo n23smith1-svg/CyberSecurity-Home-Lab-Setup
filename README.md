@@ -79,6 +79,7 @@ Leading to the following steps, to create separate virtual machines for Windows 
 
 See: `documentation/02-kali-linux-setup.md`
 
+
 ### Windows
 
 **Purpose:** Endpoint used for security testing, logging, and analysis.
@@ -90,6 +91,7 @@ See: `documentation/02-kali-linux-setup.md`
 - IP Address: 10.0.2.2
 
 See: `documentation/03-windows-vm-setup.md`
+<img width="956" height="522" alt="image" src="https://github.com/user-attachments/assets/36e5d29a-8c98-4804-9ed4-054a2e5145f6" />
 
 ## Network Configuration
 
