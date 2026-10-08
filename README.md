@@ -66,10 +66,11 @@ The main objectives of this project were:
 ## Virtual Machines
 ### Kali Linux
 **Purpose:** Security testing and analysis workstation
-- CPU: 2B
-- Storage: 2048 MB
+- CPU: 2 processors
+- RAM: 2048 MB
+- Storage: 15.23 GB
 - Network Adapter: NAT Intel PRO/1000 MT Desktop (82540EM)
-- IP Address: [Lab IP â do not include sensitive public IP information]
+- IP Address: 
 
 See: `documentation/02-kali-linux-setup.md`
 
@@ -77,11 +78,11 @@ See: `documentation/02-kali-linux-setup.md`
 
 **Purpose:** Endpoint used for security testing, logging, and analysis.
 
-- CPU: [Fill in]
-- RAM: [Fill in]
-- Storage: [Fill in]
-- Network Adapter: [Fill in]
-- IP Address: [Lab IP]
+- CPU: 2 processors
+- RAM: 4096 MB
+- Storage: 19.85 GB
+- Network Adapter: NAT Intel PRO/1000 MT Desktop (82540EM)
+- IP Address: 
 
 See: `documentation/03-windows-vm-setup.md`
 
