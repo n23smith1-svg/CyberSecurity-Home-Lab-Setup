@@ -63,6 +63,10 @@ The main objectives of this project were:
 | Windows | Windows 11 (64-bit) |
 | Network Type | NAT |
 
+## Installing Oracle VirtualBox
+The First step was to successfully install and setup Oracle VirtualBox, which provides the Virtualization environment required to run multiple operating systems on the host machine,
+Leading to the following steps, to create separate virtual machines for Windows 11 and Kali Linux
+
 ## Virtual Machines
 ### Kali Linux
 **Purpose:** Security testing and analysis workstation
@@ -79,7 +83,7 @@ See: `documentation/02-kali-linux-setup.md`
 **Purpose:** Endpoint used for security testing, logging, and analysis.
 
 - CPU: 2 processors
-- RAM: 4096 MB
+- RAM: 2048 MB
 - Storage: 19.85 GB
 - Network Adapter: NAT Intel PRO/1000 MT Desktop (82540EM)
 - IP Address: 
@@ -87,8 +91,6 @@ See: `documentation/02-kali-linux-setup.md`
 See: `documentation/03-windows-vm-setup.md`
 
 ## Network Configuration
-
-Describe:
 
 - The network mode selected.
 - Why you selected it.
