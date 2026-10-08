@@ -92,6 +92,7 @@ See: `documentation/02-kali-linux-setup.md`
 
 See: `documentation/03-windows-vm-setup.md`
 <img width="956" height="522" alt="image" src="https://github.com/user-attachments/assets/36e5d29a-8c98-4804-9ed4-054a2e5145f6" />
+<img width="531" height="448" alt="image" src="https://github.com/user-attachments/assets/7a5f775e-f62e-4a61-ae87-e24f6054c99f" />
 
 ## Network Configuration
 
