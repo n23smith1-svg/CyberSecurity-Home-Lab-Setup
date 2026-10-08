@@ -95,12 +95,26 @@ See: `documentation/03-windows-vm-setup.md`
 <img width="531" height="448" alt="image" src="https://github.com/user-attachments/assets/7a5f775e-f62e-4a61-ae87-e24f6054c99f" />
 
 ## Network Configuration
+## Network Configuration
 
-- The network mode selected.
-- Why you selected it.
-- How the VMs receive IP addresses.
-- How the VMs communicate.
-- How you verified connectivity.
+- The network mode selected: Host-only adapter
+- Why Host-only:
+  Creates a private network between my computer and the VMs, VM-to-VM communication, Safe for practice
+- How the VMs receive IP addresses:
+  I noticed that the virtual machines receive private IPv4 addresses dynamically through the VirtualBox DHCP server on the Host-Only network.
+- How the VMs communicate:
+  Windows 11 and Kali Linux virtual machines communicate through the VirtualBox Host-Only Network. They are both connected to the same private subnet.
+**How I verified connectivity**
+Connectivity between the Windows 11 and Kali Linux virtual machines was verified using ICMP ping tests.
+Test 1 — Kali Linux → Windows 11
+ping -c 4 <Windows-VM-IP>
+Result: 4 packets received, 0% packet loss.
+Test 2 — Windows 11 → Kali Linux
+ping <Kali-VM-IP>
+Result: 4 packets received, 0% packet loss.
+Verification
+Successful ping responses confirmed that the Windows 11 and Kali Linux virtual machines can communicate across the VirtualBox Host-Only network.
+
 
 See: `documentation/04-network-configuration.md`
 
