@@ -60,5 +60,41 @@ The main objectives of this project were:
 | Host Storage | 170 GB |
 | Hypervisor | Oracle VirtualBox |
 | Kali Linux | 2026.1|
-| Windows | [Version] |
-| Network Type | [NAT / Host-Only / Internal / NAT Network] |
+| Windows | Windows 11 (64-bit) |
+| Network Type | NAT |
+
+## Virtual Machines
+### Kali Linux
+**Purpose:** Security testing and analysis workstation
+- CPU: [Fill in]
+- RAM: [Fill in]
+- Storage: [Fill in]
+- Network Adapter: [Fill in]
+- IP Address: [Lab IP â do not include sensitive public IP information]
+
+See: `documentation/02-kali-linux-setup.md`
+
+### Windows
+
+**Purpose:** Endpoint used for security testing, logging, and analysis.
+
+- CPU: [Fill in]
+- RAM: [Fill in]
+- Storage: [Fill in]
+- Network Adapter: [Fill in]
+- IP Address: [Lab IP]
+
+See: `documentation/03-windows-vm-setup.md`
+
+## Network Configuration
+
+Describe:
+
+- The network mode selected.
+- Why you selected it.
+- How the VMs receive IP addresses.
+- How the VMs communicate.
+- How you verified connectivity.
+
+See: `documentation/04-network-configuration.md`
+
