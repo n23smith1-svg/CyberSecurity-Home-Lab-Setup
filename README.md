@@ -66,6 +66,7 @@ The main objectives of this project were:
 ## Installing Oracle VirtualBox
 The First step was to successfully install and setup Oracle VirtualBox, which provides the Virtualization environment required to run multiple operating systems on the host machine,
 Leading to the following steps, to create separate virtual machines for Windows 11 and Kali Linux
+<img width="958" height="539" alt="image" src="https://github.com/user-attachments/assets/5c1e6b98-e1ec-4183-a69f-a30d3ea7d8ea" />
 
 ## Virtual Machines
 ### Kali Linux
