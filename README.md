@@ -78,7 +78,7 @@ Leading to the following steps, to create separate virtual machines for Windows 
 - IP Address: 10.0.2.15
 
 See: `documentation/02-kali-linux-setup.md`
-
+<img width="959" height="530" alt="image" src="https://github.com/user-attachments/assets/610f25d9-d33c-4e59-b77d-f3e98d4346a1" />
 
 ### Windows
 
