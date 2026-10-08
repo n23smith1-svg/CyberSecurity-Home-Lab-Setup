@@ -86,7 +86,7 @@ See: `documentation/02-kali-linux-setup.md`
 - RAM: 2048 MB
 - Storage: 19.85 GB
 - Network Adapter: NAT Intel PRO/1000 MT Desktop (82540EM)
-- IP Address: 
+- IP Address: 10.0.2.2
 
 See: `documentation/03-windows-vm-setup.md`
 
