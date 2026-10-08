@@ -74,7 +74,7 @@ Leading to the following steps, to create separate virtual machines for Windows 
 - RAM: 2048 MB
 - Storage: 15.23 GB
 - Network Adapter: NAT Intel PRO/1000 MT Desktop (82540EM)
-- IP Address: 
+- IP Address: 10.0.2.15
 
 See: `documentation/02-kali-linux-setup.md`
 
